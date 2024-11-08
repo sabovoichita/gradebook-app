@@ -1,3 +1,3 @@
 # gradebook-app
 
-(https://sabovoichita.github.io/gradebook-app/)[#link]
+(link)[https://sabovoichita.github.io/gradebook-app/]
