@@ -1,4 +1,14 @@
 //average = sum of all scores / total number of scores
+// function getAverage(scores) {
+//     let sum = 0;
+
+//     for (const score of scores) {
+//       sum += score;
+//     }
+
+//     return sum / scores.length;
+//   }
+
 function getAverage(scores) {
   let sum = 0;
   for (let i = 0; i < scores.length; i++) {
