@@ -33,6 +33,17 @@ function getGrade(score) {
   }
 }
 
+function hasPassingGrade(score) {
+  if (getGrade(score) === "F") {
+    return false;
+  } else {
+    return true;
+  }
+}
+console.log("Has passing grade? " + hasPassingGrade(100));
+console.log("Has passing grade? " + hasPassingGrade(53));
+console.log("Has passing grade? " + hasPassingGrade(87));
+
 console.log("GetGrade: " + getGrade(96) + " for score of 96");
 console.log("GetGrade: " + getGrade(82) + " for score of 82");
 console.log("GetGrade: " + getGrade(56) + " for score of 56");
